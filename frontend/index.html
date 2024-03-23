@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+        <p> CONSUMO DE API AKATSUKI </p>
+        <div>
+            <label> NOMBRE </label>
+            <input type="text" id="name">
+        </div>
+        <div>
+            <label> IMAGEN </label>
+            <input type="text" id="imagen">
+        </div>
+        <div>
+            <label> ESTADO </label>
+            <input type="text" id="estado">
+        </div>
+        <button onclick = "postUser()"> POST USER </button>
+        <button onclick = "getUser()"> GET USUARIOS </button>
+        <div id = "resultado"> </div>
+        <script src = "jquery.js"> </script>
+        <script src = "callakatsukiapi.js"> </script>
+    </body>
+</html>
